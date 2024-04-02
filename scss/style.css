@@ -39,7 +39,8 @@
 }
 
 body {
-  background-color: #FFC300;
+  background-color: #000814;
+  color: white;
   font-family: Trebuchet MS, Arial, sans-serif;
   line-height: 1;
 }
@@ -53,12 +54,53 @@ a {
 }
 
 .hero {
-  background-color: #a2d0fc;
+  background-color: #000814;
   color: black;
   font-family: Trebuchet MS, Arial, sans-serif;
   padding: 50px;
   background-color: #89c4fb;
   color: black;
+  height: 100vh;
+  min-height: 500px;
+  overflow: hidden;
+}
+.hero .navbar {
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #001c47;
+  color: white;
+  background-color: #000814;
+  color: white;
+  padding: 10px;
+}
+.hero .navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.hero .navbar ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+.hero .navbar ul li a {
+  color: white;
+}
+.hero .hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-height: 100%;
+}
+.hero .hero-content img {
+  margin-top: 5%;
+  height: 800px;
+  max-width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .m-1 {
